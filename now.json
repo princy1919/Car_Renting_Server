@@ -1,0 +1,19 @@
+{
+  "name": "car-renting",
+  "version": 2,
+  "builds": [{ "src": "index.js", "use": "@now/node" }],
+  "routes": [{ "src": "/.*", "dest": "/" }],
+  "env": {
+    "PLATFORM_DB_URL": "",
+    "PLATFORM_NODE_ENV": "development",
+    "PLATFORM_JWTSECRET": "thisisthedevenv",
+    "JWTEXPIRE": "30",
+    "PORT": "8080",
+    "ACC_LOCK_TIME": " 5",
+    "LOGIN_MAX_ATTEMPTS": "4",
+    "ENABLE_SECURITY_LOGIN": "No",
+    "PLATFORM_FRONTEND_URL": "",
+    "MAILER_EMAIL_ID": "",
+    "MAILER_PASSWORD": ""
+  }
+}

@@ -1,0 +1,1 @@
+export { getUserDetails } from "./findUsersByEmail"
