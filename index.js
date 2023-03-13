@@ -1,6 +1,6 @@
-import http from "http";
 
-import app from "./server";
+import app from "./server.js";
+import http from "http";
 
 require("dotenv").config();
 
