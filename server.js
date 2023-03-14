@@ -52,4 +52,4 @@ app.use("/api"/*requireAuth*/ ,restRouter);
 app.use(apiErrorHandler);
 
 
-export default app;
+export default app
