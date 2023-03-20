@@ -21,7 +21,7 @@
     "start": "babel-node index.js"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=8.9.1"
   },
   "browserslist": [
     "> 1%",
