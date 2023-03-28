@@ -18,7 +18,7 @@
     "build": "babel . -d build/server --copy-files --ignore node_modules"
   },
   "engines": {
-    "node": ">=8.9.1"
+    "node": ">=14 <15"
   },
   "browserslist": [
     "> 1%",
